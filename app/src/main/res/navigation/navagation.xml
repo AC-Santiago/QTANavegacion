@@ -28,6 +28,9 @@
         <action
             android:id="@+id/action_dosPalabras_to_last"
             app:destination="@id/last" />
+        <argument
+            android:name="CorreoElectronico"
+            app:argType="string" />
     </fragment>
     <fragment
         android:id="@+id/inicioSesion"
@@ -52,6 +55,7 @@
         <action
             android:id="@+id/action_last_to_dosMitades"
             app:destination="@id/dosMitades" />
+        <argument android:name="CorreoElectronico" />
     </fragment>
     <fragment
         android:id="@+id/dosMitades"
@@ -67,5 +71,6 @@
         <action
             android:id="@+id/action_dosMitades_to_last"
             app:destination="@id/last" />
+        <argument android:name="CorreoElectronico" />
     </fragment>
 </navigation>
