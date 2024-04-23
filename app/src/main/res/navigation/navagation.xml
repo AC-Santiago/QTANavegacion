@@ -20,11 +20,14 @@
         android:label="fragment_dos_palabras"
         tools:layout="@layout/fragment_dos_palabras" >
         <action
-            android:id="@+id/action_dosPalabras_to_last"
-            app:destination="@id/last" />
-        <action
             android:id="@+id/action_dosPalabras_to_inicioSesion"
             app:destination="@id/inicioSesion" />
+        <action
+            android:id="@+id/action_dosPalabras_to_dosMitades"
+            app:destination="@id/dosMitades" />
+        <action
+            android:id="@+id/action_dosPalabras_to_last"
+            app:destination="@id/last" />
     </fragment>
     <fragment
         android:id="@+id/inicioSesion"
@@ -43,6 +46,12 @@
         <action
             android:id="@+id/action_last_to_inicioSesion"
             app:destination="@id/inicioSesion" />
+        <action
+            android:id="@+id/action_last_to_dosPalabras"
+            app:destination="@id/dosPalabras" />
+        <action
+            android:id="@+id/action_last_to_dosMitades"
+            app:destination="@id/dosMitades" />
     </fragment>
     <fragment
         android:id="@+id/dosMitades"
@@ -50,10 +59,13 @@
         android:label="fragment_dos_mitades"
         tools:layout="@layout/fragment_dos_mitades" >
         <action
+            android:id="@+id/action_dosMitades_to_inicioSesion"
+            app:destination="@id/inicioSesion" />
+        <action
             android:id="@+id/action_dosMitades_to_dosPalabras"
             app:destination="@id/dosPalabras" />
         <action
-            android:id="@+id/action_dosMitades_to_inicioSesion"
-            app:destination="@id/inicioSesion" />
+            android:id="@+id/action_dosMitades_to_last"
+            app:destination="@id/last" />
     </fragment>
 </navigation>
