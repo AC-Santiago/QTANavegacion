@@ -9,10 +9,19 @@
         android:id="@+id/primeraPagina"
         android:name="com.example.qta.PrimeraPagina"
         android:label="fragment_primera_pagina"
-        tools:layout="@layout/fragment_primera_pagina" />
+        tools:layout="@layout/fragment_primera_pagina" >
+        <action
+            android:id="@+id/action_primeraPagina_to_inicioSesion"
+            app:destination="@id/inicioSesion" />
+    </fragment>
     <fragment
         android:id="@+id/dosPalabras"
         android:name="com.example.qta.DosPalabras"
         android:label="fragment_dos_palabras"
         tools:layout="@layout/fragment_dos_palabras" />
+    <fragment
+        android:id="@+id/inicioSesion"
+        android:name="com.example.qta.InicioSesion"
+        android:label="fragment_inicio_sesion"
+        tools:layout="@layout/fragment_inicio_sesion" />
 </navigation>
