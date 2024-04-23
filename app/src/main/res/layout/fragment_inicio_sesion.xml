@@ -89,7 +89,7 @@
                 android:layout_height="74dp"
                 android:layout_marginTop="10dp"
                 android:hint="@string/contase_a"
-                app:layout_constraintBottom_toTopOf="@+id/button"
+                app:layout_constraintBottom_toTopOf="@+id/button_empezar"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textFielUsuario">
@@ -101,7 +101,7 @@
             </com.google.android.material.textfield.TextInputLayout>
 
             <Button
-                android:id="@+id/button"
+                android:id="@+id/button_empezar"
                 style="@style/EstiloBotonPrincipal"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"

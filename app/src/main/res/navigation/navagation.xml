@@ -22,6 +22,9 @@
         <action
             android:id="@+id/action_dosPalabras_to_last"
             app:destination="@id/last" />
+        <action
+            android:id="@+id/action_dosPalabras_to_inicioSesion"
+            app:destination="@id/inicioSesion" />
     </fragment>
     <fragment
         android:id="@+id/inicioSesion"
@@ -36,7 +39,11 @@
         android:id="@+id/last"
         android:name="com.example.qta.last"
         android:label="fragment_last"
-        tools:layout="@layout/fragment_last" />
+        tools:layout="@layout/fragment_last" >
+        <action
+            android:id="@+id/action_last_to_inicioSesion"
+            app:destination="@id/inicioSesion" />
+    </fragment>
     <fragment
         android:id="@+id/dosMitades"
         android:name="com.example.qta.DosMitades"
@@ -45,5 +52,8 @@
         <action
             android:id="@+id/action_dosMitades_to_dosPalabras"
             app:destination="@id/dosPalabras" />
+        <action
+            android:id="@+id/action_dosMitades_to_inicioSesion"
+            app:destination="@id/inicioSesion" />
     </fragment>
 </navigation>
