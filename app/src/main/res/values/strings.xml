@@ -13,4 +13,8 @@
     <string name="flecha_atras">Flecha atras</string>
     <string name="usuario">Usuario</string>
     <string name="contase_a">Contaseña</string>
+
+    <!-- Texto del segundo fragemnto -->
+    <string name="quitar_fragmento">Quitar fragmento</string>
+    <string name="quitar_fragmentos">Quitar fragmentos</string>
 </resources>
