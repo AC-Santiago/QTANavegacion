@@ -63,6 +63,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/ConstraintNavbar">
 
+
             <Button
                 android:id="@+id/button2"
                 style="@style/EstiloBotonPrincipal"
@@ -76,6 +77,103 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintBottom_toTopOf=""
                 tools:layout_editor_absoluteY="453dp" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="407dp"
+                android:layout_height="451dp"
+                android:layout_marginStart="1dp"
+                android:layout_marginEnd="1dp"
+                android:layout_marginBottom="1dp"
+                app:layout_constraintBottom_toTopOf="@+id/button2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent">
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="158dp"
+                    android:layout_height="20dp"
+                    android:layout_marginStart="80dp"
+                    android:layout_marginEnd="224dp"
+                    android:layout_marginBottom="384dp"
+                    android:fontFamily="@font/roboto"
+                    android:text="Hola alejing@gmail.com"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="28dp"
+                    android:layout_marginEnd="31dp"
+                    android:layout_marginBottom="324dp"
+                    android:text="Te voy a ayudar a solucionar el problema quitar el                          fragmento."
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.203"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="28dp"
+                    android:layout_marginEnd="31dp"
+                    android:layout_marginBottom="272dp"
+                    android:text="1. Ingresa una cadena de caracteres en la que por lo menos existe 2 veces la letra h."
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.203"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="28dp"
+                    android:layout_marginEnd="30dp"
+                    android:layout_marginBottom="224dp"
+                    android:text="2.  Eliminare de esa cadena la primera y la última aparición                 de la letra h, así como todos los caracteres entre ellas."
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.206"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="28dp"
+                    android:layout_marginEnd="30dp"
+                    android:layout_marginBottom="188dp"
+                    android:text="3. Luego imprimiré la nueva cadena en pantalla."
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+                <EditText
+                    android:id="@+id/editTextTextPersonName2"
+                    android:layout_width="223dp"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="25dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginEnd="25dp"
+                    android:layout_marginBottom="30dp"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:text="ingrese cadena"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.496"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView9"
+                    app:layout_constraintVertical_bias="0.48" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
