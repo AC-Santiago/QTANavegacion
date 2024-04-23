@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Qta</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Texto del segundo fragemnto -->
+    <string name="title_navbar">Iniciar sesión</string>
+    <string name="button_ingresar">Ingresar</string>
+    <string name="flecha_atras">Flecha atras</string>
+
 </resources>
