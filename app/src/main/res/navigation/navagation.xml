@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navagation"
+    app:startDestination="@id/primeraPagina">
+
+    <fragment
+        android:id="@+id/primeraPagina"
+        android:name="com.example.qta.PrimeraPagina"
+        android:label="fragment_primera_pagina"
+        tools:layout="@layout/fragment_primera_pagina" />
+    <fragment
+        android:id="@+id/dosPalabras"
+        android:name="com.example.qta.DosPalabras"
+        android:label="fragment_dos_palabras"
+        tools:layout="@layout/fragment_dos_palabras" />
+</navigation>
