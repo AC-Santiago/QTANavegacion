@@ -6,6 +6,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
+import android.widget.ImageView
 import androidx.navigation.fragment.findNavController
 
 // TODO: Rename parameter arguments, choose names that match
@@ -33,10 +34,10 @@ class DosMitades : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        val buttonDosMitades = view.findViewById<Button>(R.id.imageView11)
-        val buttonDosPalabras = view.findViewById<Button>(R.id.imageView12)
-        val buttonQuitar = view.findViewById<Button>(R.id.imageView13)
-        val buttonVolver = view.findViewById<Button>(R.id.imageView6)
+        val buttonDosMitades = view.findViewById<ImageView>(R.id.imageView11)
+        val buttonDosPalabras = view.findViewById<ImageView>(R.id.imageView12)
+        val buttonQuitar = view.findViewById<ImageView>(R.id.imageView13)
+        val buttonVolver = view.findViewById<ImageView>(R.id.imageView6)
         buttonDosPalabras.setOnClickListener{
             findNavController().navigate(R.id.action_dosMitades_to_dosPalabras)
         }
