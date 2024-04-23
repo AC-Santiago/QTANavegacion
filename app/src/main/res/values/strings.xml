@@ -2,5 +2,18 @@
     <string name="app_name">Qta</string>
     <string name="descripcion_imagen">Descripcion de la imagen</string>
     <string name="iniciar">Iniciar sesión</string>
+    <string name="dos_palabras">Dos palabras</string>
+    <string name="dos_palabras_des">Te voy a ayudar a solucionar el problema de las 2 palabras.</string>
+    <string name="dos_palabras_list1">1. Ingresa una cadena de caracteres que contenga solo 2 palabras separadas por un espacio.</string>
+    <string name="dos_palabras_list2">2. Imprimiré una nueva cadena con las posiciones de la primera y segunda palabra intercambiadas (la segunda palabra se imprime primero).</string>
+    <string name="solucionar">Solucionar</string>
+    <string name="dos_mitades">Dos Mitades</string>
+    <string name="quitar">Quitar fragmento</string>
+
+
+
+
+
+
 
 </resources>
