@@ -5,22 +5,11 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.ImageView
+import androidx.navigation.fragment.findNavController
 
-// TODO: Rename parameter arguments, choose names that match
-// the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
-private const val ARG_PARAM1 = "param1"
-private const val ARG_PARAM2 = "param2"
 
-/**
- * A simple [Fragment] subclass.
- * Use the [last.newInstance] factory method to
- * create an instance of this fragment.
- */
 class last : Fragment() {
-    // TODO: Rename and change types of parameters
-    private var param1: String? = null
-    private var param2: String? = null
-
 
 
     override fun onCreateView(
@@ -31,5 +20,24 @@ class last : Fragment() {
         return inflater.inflate(R.layout.fragment_last, container, false)
     }
 
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+        val imagendosmitades = view.findViewById<ImageView>(R.id.imageView11)
+        imagendosmitades.setOnClickListener {
+            findNavController().navigate(R.id.action_last_to_dosMitades)
+        }
+
+        val imagendospalabras = view.findViewById<ImageView>(R.id.imageView12)
+        imagendospalabras.setOnClickListener {
+            findNavController().navigate(R.id.action_last_to_dosPalabras)
+
+        }
+
+        val imagenx = view.findViewById<ImageView>(R.id.imageView6)
+        imagenx.setOnClickListener {
+            findNavController().navigate(R.id.action_last_to_inicioSesion)
+
+        }
+    }
 
 }
