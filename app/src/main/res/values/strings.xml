@@ -19,4 +19,8 @@
     <!-- Texto del segundo fragemnto -->
     <string name="quitar_fragmento">Quitar fragmento</string>
     <string name="quitar_fragmentos">Quitar fragmentos</string>
+    <string name="textodescripcionmitades">Te voy a ayudar a solucionar el problema de las 2 mitades.</string>
+    <string name="listmitades1">1. Ingresa una cadena de caracteres.</string>
+    <string name="MITADESLIST2">2. Te ayudare a cortar la cadena en dos partes iguales (si la longitud de la cadena es impar, colocare el carácter central en la primera cadena, de modo que la primera cadena contenga un carácter más que la segunda).</string>
+    <string name="mitadlist3">3. Luego imprimiré la nueva cadena en una sola fila con la primera y la segunda mitad intercambiadas (la segunda mitad es la primera y la primera mitad es la segunda)</string>
 </resources>

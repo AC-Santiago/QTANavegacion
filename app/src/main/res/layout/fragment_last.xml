@@ -128,9 +128,11 @@
                 android:id="@+id/textView5"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginStart="58dp"
+                android:layout_marginTop="11dp"
+                android:layout_marginBottom="16dp"
                 android:text="@string/dos_mitades"
                 app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toStartOf="@+id/textView6"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/imageView11" />
 
@@ -138,22 +140,24 @@
                 android:id="@+id/textView6"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="52dp"
+                android:layout_marginTop="11dp"
+                android:layout_marginEnd="17dp"
+                android:layout_marginBottom="16dp"
                 android:text="@string/dos_palabras"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toStartOf="@+id/textView7"
-                app:layout_constraintStart_toEndOf="@+id/textView5"
                 app:layout_constraintTop_toBottomOf="@+id/imageView12" />
 
             <TextView
                 android:id="@+id/textView7"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="28dp"
+                android:layout_marginTop="11dp"
+                android:layout_marginEnd="29dp"
+                android:layout_marginBottom="16dp"
                 android:text="@string/quitar_fragmentos"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toEndOf="@+id/textView6"
                 app:layout_constraintTop_toBottomOf="@+id/imageView13" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
